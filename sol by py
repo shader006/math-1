@@ -1,0 +1,7 @@
+import math
+n = 99
+S = 0
+while n >1:
+    S = math.sqrt(S+(1/n**2))
+    n -= 2
+print(S)
